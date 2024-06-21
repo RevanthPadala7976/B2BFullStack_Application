@@ -1,0 +1,81 @@
+/* Styles for the product list page */
+
+.product-list-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.product-list-container h2 {
+  margin-bottom: 20px;
+}
+
+.product-list-container .search-bar {
+  display: flex;
+  margin-bottom: 20px;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.product-list-container input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.product-list-container button {
+  border-radius: 10px;
+  margin-left: 5%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease; /* Transition for hover effect */
+}
+.product-list-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Zoom in on hover */
+}
+
+.product-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-list-container li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out; /* Add transition for zoom effect */
+}
+
+.product-list-container li:hover {
+  transform: scale(1.02); /* Zoom in on hover */
+}
+
+.product-list-container li h3 {
+  margin: 0 0 10px 0;
+}
+
+.product-list-container li a {
+  color: #007bff;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.product-list-container li a:hover {
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
+
+.product-list-container li p {
+  margin: 5px 0;
+}

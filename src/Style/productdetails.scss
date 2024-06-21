@@ -1,0 +1,18 @@
+/* src/Style/productdetails.scss */
+
+.product-detail-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Increase max-width for larger screens */
+  /* Make it responsive */
+  margin: 20px auto; /* Center it horizontally */
+}
+
+.product-detail-container h2 {
+  margin-bottom: 20px;
+}
+
+.product-detail-container p {
+  margin: 10px 0;
+}
