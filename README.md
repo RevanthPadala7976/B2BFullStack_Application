@@ -1,5 +1,15 @@
 # B2B Data Catalog Application
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/b2b-data-catalog/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
+[![React](https://img.shields.io/badge/react-17.0.2-blue)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/javascript-ES6%2B-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![SCSS](https://img.shields.io/badge/scss-3.6.1-pink)](https://sass-lang.com/)
+[![FastAPI](https://img.shields.io/badge/fastapi-0.68.2-green)](https://fastapi.tiangolo.com/)
+[![MySQL](https://img.shields.io/badge/mysql-8.0.26-blue)](https://www.mysql.com/)
+
+
+
 This project is a B2B data catalog application that allows business users to log in, view a list of available products, and search/filter the products by name or category. The application includes both frontend and backend components, with a focus on user authentication and responsive design.
 
 ## Features
