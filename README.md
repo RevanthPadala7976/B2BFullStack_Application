@@ -33,27 +33,43 @@ Follow these instructions to set up and run the application locally.
 git clone https://github.com/yourusername/b2b-data-catalog.git
 cd b2b-data-catalog/b2b-data-catalog-api
 ```
-## Create and activate a virtual environment
+2. **Create and activate a virtual environment**
 ```bash
 python -m venv env
 source env/bin/activate  # On Windows, use `env\Scripts\activate`
 ```
-## Install the required Python packages
+3. **Install the required Python packages**
 ```bash
 pip install -r requirements.txt
 ```
-## Set up the MySQL database
+4. **Set up the MySQL database**
 - Create a new MySQL database.
 - Update the `Database_URL` in the `models.py` file with your database credentials.
 
-## Run the database migrations
+5. **Run the database migrations**
 ```bash
 python models.py
 ```
-## Start the backend server
+6. **Start the backend server**
 ```bash
 uvicorn main:app --reload
 ```
 The backend server will be running at http://127.0.0.1:8000.
 
+# Running the Application
+1. **Access the frontend application**
+
+Open your browser and navigate to http://localhost:3000.
+
+2. **Log in**
+
+Use the following credentials to log in and test the functionalities:
+
+- Username: admin
+- Password: admin@123
+  
+After logging in, you will be able to view and search the product catalog.
+
+# License
+This project is licensed under the MIT License.
 
