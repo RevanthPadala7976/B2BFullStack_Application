@@ -43,7 +43,7 @@ Follow these instructions to set up and run the application locally.
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/b2b-data-catalog.git
+git clone https://github.com/RevanthPadala7976/B2BFullStack_Application.git
 cd b2b-data-catalog/b2b-data-catalog-api
 ```
 2. **Create and activate a virtual environment**
