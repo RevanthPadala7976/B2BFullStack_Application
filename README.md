@@ -1,4 +1,4 @@
-# B2B Data Catalog Application
+# Business Product Hub
 
 ![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
